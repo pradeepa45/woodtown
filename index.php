@@ -8,6 +8,7 @@
         integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     
     <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
     <title>Welcome to Woodtown!</title>
 </head>
 
