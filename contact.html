@@ -241,14 +241,14 @@
             <form action="https://formsubmit.co/2868eb31feb5f02f21a75f4756e8bcd9" method="POST">
                 <div class="input-group input-group-lg" style="margin: 10px 0;">
                     <span class="input-group-text">First and last name</span>
-                    <input type="text" aria-label="First name" class="form-control" required>
-                    <input type="text" aria-label="Last name" class="form-control" required>
+                    <input type="text" aria-label="First name" class="form-control" name="first name" required>
+                    <input type="text" aria-label="Last name" class="form-control" name="last name" required>
                 </div>
                 <div class="form-floating" style="margin: 10px 0;">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    <input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@example.com" required>
                     <label for="floatingInput">Email address</label>
                 </div>
-                <select class="form-select" aria-label="Default select example" style="padding: 10px;" required>
+                <select class="form-select" aria-label="Default select example" style="padding: 10px;" name="issue" required>
                     <option selected disabled>Let us know what this is about</option>
                     <option value="1">Issue with purchasing item</option>
                     <option value="2">Issue with a placed order</option>
@@ -257,7 +257,7 @@
                 </select>
 
                 <div class="form-floating" style="margin: 10px 0;">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                    <textarea class="form-control" placeholder="Leave a comment here" name="comment" id="floatingTextarea2"
                         style="height: 100px"></textarea>
                     <label for="floatingTextarea2">Comments</label>
                 </div>
