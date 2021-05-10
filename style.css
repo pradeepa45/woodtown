@@ -37,11 +37,14 @@ body{
 footer{
     background-color: grey;
     color: white;
-    position: fixed;
+    /* position: sticky; */
     bottom: 0;
-    padding: 15px 15px 0 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
     width: 100%;
-    font-size: small;
+    /* font-size: small; */
 }
 
 .card img{
@@ -177,3 +180,23 @@ footer{
     transform: rotateY(180deg);
     width: 100%;
   }
+
+  .col-md-3 li a{
+    text-decoration: none;
+    padding: 2px;
+    color: white;
+  }
+
+  .col-md-3 li a:hover{
+    border-bottom: grey 2px solid;
+  }
+
+.col-md-3 h4{
+    padding-bottom: 5px;
+    border-bottom: grey 2px solid;
+    /* border-width: inherit; */
+  }
+
+.col-md-3 ul{
+  padding-top: 10px;
+}
